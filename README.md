@@ -97,7 +97,7 @@ ipfs pin add -r /ipfs/<hash_of_website_folder>
 
 With this command you ensure that your local node will keep the contents of the folder even it is not parsed regularly.
 
-## View your content 
+### View your content 
 
 You can view your newly created one-page website via the official gateway ipfs.io like this:
 
@@ -105,6 +105,10 @@ https://ipfs.io/ipfs/<hash_of_website_folder>
 
 You can also use the Cloudflares gateway likes this:
 https://cloudflare-ipfs.com/ipfs/<hash_of_website_folder>
+
+### Demo websites
+
+You can view here a demo website: https://ipfs.io/ipfs/QmWDekG9AoBAP3FkD8LmxsbQJdD12vRtjuHfDGZa7XDCte/
 
 # Resources
 
