@@ -4,11 +4,17 @@
 IPFS stands for Inter-planetary File System and it is a peer-to-peer mechanism to save and distribute files.
 
 To quote the original explanation:
-"A peer-to-peer hypermedia protocol
+_*"A peer-to-peer hypermedia protocol
 designed to preserve and grow humanity's knowledge
-by making the web upgradeable, resilient, and more open."
+by making the web upgradeable, resilient, and more open."*_
+
+You can learn more about it at the official website https://ipfs.io/ .
 
 ## Pre-requisities
+
+### Local machine
+
+We assume that you are working on the Ubuntu Linux distribution.
 
 ### Install IPFS CLI or IPFS Desktop
 
@@ -29,7 +35,7 @@ sudo ufw allow 8080
 
 ### Port-forwarding
 
-In your router set port 4001 to be forwarded in your local IPFS node either via static IP or MAC address.
+In your router set the port 4001 to be forwarded in your local IPFS node either via static IP or MAC address.
 
 
 ## Steps to put your website to IPFS
@@ -38,15 +44,15 @@ In your router set port 4001 to be forwarded in your local IPFS node either via 
 
 Firstly, for the shake of this tutorial lets assume that you want to create a website with static content. You can of course use the files found in this repository.
 
-_*Create a folder named website*_
+*Create a folder named website*
 
 Lets name this folder 'website'
 
-_*Create an index file*_
+*Create an index file*
 
 You will need to create the main html file and name it as index.html 
 
-_*Add content in the file*_
+*Add content in the file*
 
 You can add the following content:
 
@@ -99,3 +105,8 @@ https://ipfs.io/ipfs/<hash_of_website_folder>
 
 You can also use the Cloudflares gateway likes this:
 https://cloudflare-ipfs.com/ipfs/<hash_of_website_folder>
+
+# Resources
+
+- https://ipfs.io/
+- https://developers.cloudflare.com/distributed-web/ipfs-gateway
